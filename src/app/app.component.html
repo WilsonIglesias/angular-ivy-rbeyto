@@ -1,4 +1,7 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h2>HttpService</h2>
+<p><strong>Nome:</strong> Wilson Iglesias Trindade Oliveira</p>
+<p><strong>RA:</strong>0050832011032</p>
+<h3>Temporizador</h3>
+{{timer.getCount()}}s
+<button (click)="timer.start(1000)">Iniciar</button>
+<button (click)="timer.stop()">Parar</button>
